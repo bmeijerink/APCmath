@@ -1,0 +1,35 @@
+{
+	"keywords" : [
+		"php",
+		"apcmath",
+		"bcmath",
+		"arbitrary-precision",
+		"class"
+	],
+	"autoload" : {
+		"psr-4" : {
+			"bmeijerink\\APCmath\\" : "src"
+		}
+	},
+	"name" : "APCmath",
+	"type" : "library",
+	"description" : "Library compoment for performing calculations with arbitrary precision numbers",
+	"license" : "MIT",
+	"require" : {
+		"php" : ">=7.1",
+		"ext-bcmath" : "*"
+	},
+	"authors" : [{
+			"name" : "Bert Meijerink",
+			"email" : "bert_meijerink@hotmail.com"
+		}
+	],
+	"support" : {
+		"email" : "bert_meijerink@hotmail.com"
+	},
+	"repositories" : [{
+			"type" : "git",
+			"url" : "https://github.com/bmeijerink/APCmath"
+		}
+	]
+}
